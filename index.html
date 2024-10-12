@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library.css">
+    <title>My Library</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>My Library</h1>
+        <button id="addBook" class="addBook">Add Book</button>
+    </div>
+    
+    <div class="cardContainer" id="cardContainer">
+    </div>
+
+    <dialog id="dialogBox" class="dialogBox">
+        <form method="dialog">
+            <h2>Enter Title: </h2>
+            <label for="title" class="title"><input id="title" type="text"></label>
+            <h2>Select Genre: </h2>
+            <label>
+                <select>
+                    <option value="default">Select genre</option>
+                    <option>Fantasy</option>
+                    <option>Thriller</option>
+                    <option>Motivational</option>
+                    <option>Other</option>
+                </select>
+            </label>
+            <h2>Status of Book</h2>
+            <label for="completed">Read</label>
+            <input type="radio" id="completed" value="Read" name="Status">
+
+            <div>
+                <button value="cancel" formnovalidate>Close</button>
+                <button id="confirm" value="default">Confirm</button>
+            </div>
+        </form>
+    </dialog>
+
+    <output></output>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+::backdrop {
+    background-image: linear-gradient(
+        45deg,
+        white, 
+        grey
+    );
+}
+
+.dialogBox {
+    border: none; 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #d8a5ba;
+}
+
+.dialogBox h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.dialogBox input, .dialogBox select {
+    padding: 8px;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.dialogBox button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.dialogBox #confirm {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dialogBox #cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+
+input[type="checkbox"] {
+    vertical-align: middle; /* Aligns checkbox with text */
+    margin-right: 10px; /* Adds space between checkbox and text */
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#04291b;
+    font-size:xx-larges;
+}
+
+.addBook {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:14px;
+    background-color: maroon;
+    font-weight:bold;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.cardContainer {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.card {
+    background-color: #a89d9d;
+    border: none;
+    border-radius: 15px; 
+    padding: 15px; 
+    width: 300px;
+    height: 250px;
+    text-align: center;
+
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:15px;
+    background-color: rgb(226, 51, 51);
+    font-weight:bold;
+    color: white;
+    margin: 0 auto;
+}
+
+.changing-status {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:15px;
+    background-color: rgb(71, 66, 66);
+    font-weight:bold;
+    color: white;
+    margin: 0 auto;
+}
+
+.heading {
+    background-color: rgb(58, 194, 137);
+    margin: 0 0 0 0;
+    padding: 5px;
+}
+
+.book-number {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight:900;
+    color: #022718;
+    margin: 0%;
+}
